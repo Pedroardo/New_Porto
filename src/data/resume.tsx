@@ -154,6 +154,24 @@ export const DATA = {
       image: "",
       video: "/vue-findbooks.webm",
     },
+    {
+      title: "Old Portofolio",
+      href: "https://pedroardoporto.vercel.app/",
+      date: "August 2025 - September 2025",
+      active: true,
+      description:
+        "This is my old portofolio that I used to show my skills, profile, and projects.",
+      technologies: ["React", "TailwindCSS", "CLSX", "Motion", "Animate.CSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://pedroardoporto.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/porto.webm",
+    },
   ],
   hackathons: [
     {
