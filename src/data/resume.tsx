@@ -134,7 +134,7 @@ export const DATA = {
     {
       title: "Find Books",
       href: "https://find-books-vue.vercel.app/",
-      date: "Jul 2024 - Jul 2024",
+      dates: "Jul 2024 - Jul 2024",
       active: true,
       description:
         "This is a library management system that allows users to search for books from google API. It also allows users to go derict into the book page and buy the book.",
@@ -157,7 +157,7 @@ export const DATA = {
     {
       title: "Old Portofolio",
       href: "https://pedroardoporto.vercel.app/",
-      date: "August 2025 - September 2025",
+      dates: "August 2025 - September 2025",
       active: true,
       description:
         "This is my old portofolio that I used to show my skills, profile, and projects.",
