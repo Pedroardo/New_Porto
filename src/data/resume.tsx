@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { title } from "process";
 
 export const DATA = {
   name: "Pedro Ardometrius Tan",
@@ -129,6 +130,29 @@ export const DATA = {
       ],
       image: "",
       video: "/slap.webm",
+    },
+    {
+      title: "Find Books",
+      href: "https://find-books-vue.vercel.app/",
+      date: "Jul 2024 - Jul 2024",
+      active: true,
+      description:
+        "This is a library management system that allows users to search for books from google API. It also allows users to go derict into the book page and buy the book.",
+      technologies: ["Vue", "TailwindCSS", "Vite", "Vercel", "Google API"],
+      links: [
+        {
+          type: "Website",
+          href: "https://find-books-vue.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Pedroardo/findBookApi-Vue",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/vue-findbooks.webm",
     },
   ],
   hackathons: [
